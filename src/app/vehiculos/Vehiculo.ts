@@ -9,6 +9,16 @@ export class Vehiculo {
     imagen : string = "https://cdn.group.renault.com/ren/co/vehicles/kangoo/home/renault-kangoo-exterior.jpg";
 
     constructor(){
-        
+
+    }
+}
+
+export class Marcas {
+    name: string = "";
+    cuenta: number = 0;
+
+    constructor(n:string){
+        this.name = n;
+        this.cuenta = 1;
     }
 }

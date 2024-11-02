@@ -16,3 +16,12 @@
     </tr>
   </tbody>
 </table>
+
+<div>
+  <p>  Conteo de Vehículos por Marca
+  <ul>
+    <li class="list-group-item" *ngFor="let marca of contadorMarcas">
+      {{ marca.name }}: <b>{{ marca.cuenta }}</b>
+    </li>
+  </ul>
+</div>

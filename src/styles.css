@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.header {
+    width:100%;
+}
+
+.header h1{
+    font-size:20pt;
+    color:#212121;
+    padding-top:1.2rem;
+    text-shadow: 1px 1px 3px #ddd;
+}
+
+.header img{
+    width:100%;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
